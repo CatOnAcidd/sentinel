@@ -33,7 +33,7 @@ jobs:
           $instrumentationKey = "${{ vars.APPINSIGHTS }}"
           $runId = "${{ github.run_id }}"
           $solutionName = "${{ inputs.solutionName }}"
-          $baseFolderPath = "/home/runner/work/Azure-Sentinel/Azure-Sentinel/"
+          $baseFolderPath = "/home/runner/work/sentinel/sentinel/"
           $pullRequestNumber = "${{ github.event.client_payload.pull_request.number && github.event.client_payload.pull_request.number || github.event.client_payload.pullRequestNumber }}"
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module powershell-yaml

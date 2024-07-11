@@ -4,7 +4,7 @@ name: check that the version was updated
 on:
   pull_request:
     paths:
-       - 'Detection**'
+       - 'Rules**'
        - 'Solutions/**/Analytic Rules/**'
 
   # Allows you to run this workflow manually from the Actions tab
