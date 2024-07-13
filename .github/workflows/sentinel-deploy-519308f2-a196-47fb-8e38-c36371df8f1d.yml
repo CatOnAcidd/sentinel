@@ -13,7 +13,11 @@ on:
   push:
     branches: [ main ]
     paths:
-    - '**'
+    - 'Hunting/**/**'
+    - 'MasterPlayBooks/**'
+    - 'Playbooks/**'
+    - 'Rules/**/**'
+    - 'Solutions/**'
     - '!.github/workflows/**'  # this filter prevents other workflow changes from triggering this workflow
     - '.github/workflows/sentinel-deploy-519308f2-a196-47fb-8e38-c36371df8f1d.yml'
 
