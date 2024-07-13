@@ -3,8 +3,8 @@ name: run script on changing detections
 on:
   pull_request:
     paths:
-       - 'Detection**'
-       - 'Solutions/**/Analytic Rules/**'
+       - 'Rules/**/**'
+       - 'Playbooks/**/**'
       
 jobs:
   add-comment:
